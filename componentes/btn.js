@@ -6,7 +6,7 @@ class BtnElement extends HTMLElement {
         super();
         
         // Establecemos el contenido HTML del componente personalizado. En este caso, un div con estilo en línea.
-        this.innerHTML = "<div style='background-color:red; width:max-content; height:auto; padding:.2rem;'>boton</div>";
+        this.innerHTML = `<div style='background-color:red; width:max-content; height:auto; padding:.2rem;'>boton</div>`;
     }
 }
 
